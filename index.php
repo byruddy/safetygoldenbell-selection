@@ -1,2 +1,4 @@
 <?php  
-header('Location: http://localhost/safetygoldenbell/welcome/'); exit;
+session_start();
+session_destroy();
+header('Location: http://172.21.77.185/safetygoldenbell/welcome'); exit;

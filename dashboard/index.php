@@ -18,13 +18,9 @@ if (isset($_SESSION['administrator'])) {
 $countT = mysqli_num_rows(mysqli_query($link, "SELECT * FROM m_tests WHERE session_id ='".$user."'"));
 $countG = mysqli_num_rows(mysqli_query($link, "SELECT * FROM m_guests"));
   // Graph Data
-$graphPass = $graphFail = [];
-$query  = "SELECT * FROM m_tests WHERE session_id = '111105' ORDER BY id DESC LIMIT 10";
+$query  = "SELECT * FROM participants WHERE nim = '".$_SESSION['nim']."'";
 $data10 = mysqli_query($link, $query);
-while ($row = mysqli_fetch_assoc($data10)) {
-  $graphPass[] = '#'.$row['id'].'='.$row['pass'];
-  $graphFail[] = '#'.$row['id'].'='.$row['fail'];
-}
+$user = mysqli_fetch_assoc($data10);
 ?>
 <!doctype html>
   <html lang="en">
@@ -53,18 +49,18 @@ while ($row = mysqli_fetch_assoc($data10)) {
     <div class="container">
 
       <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-        <h1 class="display-4">Hi, <span style="color: #ff4757">Calon Peserta</span> <span class="text-primary">Golden Bell 2022</span></h1>
+        <h1 class="display-4">Hi <?= $user['fullname'] ?>, <span style="color: #ff4757">Calon Peserta</span> <span class="text-primary">Golden Bell 2022</span></h1>
       </h1>
       <p class="lead mb-4">This application make you remember question more fast, <b style="color: #ff4757">Test</b> Now will be results for questions random,<br>because Quiz will be system like <span class="text-warning">Ranking 1st</span> in Indonesia<br>Practice make you manage question good for remember. Pray before Fighting</p>
 
       <?php 
-        $query2        = "SELECT * FROM test_logs WHERE participant_id = '".$_SESSION['nim']."' LIMIT 1";
-        $getData2      = mysqli_query($link, $query2);
-        $check = mysqli_num_rows($getData2);
-        if ($check == 0) {
-      ?>
-      <a class="btn btn-lg" style="border-radius: 3px; background-color: #ff4757; color: white;" href="<?= BASE_URL ?>dashboard/test/readme.php" role="button">Test Now</a>
-      <?php 
+      $query2        = "SELECT * FROM test_logs WHERE participant_id = '".$_SESSION['nim']."' LIMIT 1";
+      $getData2      = mysqli_query($link, $query2);
+      $check = mysqli_num_rows($getData2);
+      if ($check == 0) {
+        ?>
+        <a class="btn btn-lg" style="border-radius: 3px; background-color: #ff4757; color: white;" href="<?= BASE_URL ?>dashboard/test/readme.php" role="button">Test Now</a>
+        <?php 
       }
       ?>
       <a class="btn btn-lg" style="border-radius: 3px; background-color: #00b894; color: white;" href="<?= BASE_URL ?>dashboard/leaderboard/" role="button">Leaderboard</a>

@@ -59,42 +59,51 @@ while ($row = mysqli_fetch_assoc($data10)) {
       <table class="table table-sm table-bordered mt-3">
         <thead class="table-primary">
           <tr>
-            <th scope="col">#</th>
+            <th scope="col" class="text-center">#</th>
             <th scope="col">Fullname</th>
-            <th scope="col">Score</th>
+            <th scope="col" class="text-center">Benar</th>
+            <th scope="col" class="text-center">Salah</th>
+            <th scope="col" class="text-center">Score</th>
           </tr>
         </thead>
         <tbody>
           <?php 
-            $runSql = mysqli_query($link, "SELECT p.fullname, t.score FROM m_tests t INNER JOIN participants p ON t.session_id = p.nim ORDER BY t.score DESC");
-            $i = 1;
-            while ($row = mysqli_fetch_assoc($runSql)) {
-          ?>
-          <tr>
-            <th scope="row"><?= $i ?></th>
+          $runSql = mysqli_query($link, "SELECT p.nim, p.fullname, t.pass, t.fail, t.score FROM m_tests t INNER JOIN participants p ON t.session_id = p.nim ORDER BY t.score DESC");
+          $i = 1;
+          while ($row = mysqli_fetch_assoc($runSql)) {
+
+            if ($row['nim'] == $_SESSION['nim']) {
+              echo '<tr style="background-color: #ffda79">';
+            } else {
+              echo '<tr>';
+            }
+            ?>
+            <th scope="row" class="text-center"><?= $i ?></th>
             <td><?= $row['fullname'] ?></td>
-            <td><?= $row['score'] ?></td>
+            <td class="text-center"><?= $row['pass'] ?></td>
+            <td class="text-center"><?= $row['fail'] ?></td>
+            <td class="text-center"><?= $row['score'] ?></td>
           </tr>
           <?php 
           $i++;
-          }
-          ?>
-        </tbody>
-      </table>
-      <small class="text-muted">This application is open-source, you can see algorithm of tests <a href="https://github.com/byruddy/safetygoldenbell-selection" class="text-info">[github/byruddy]</a></small>
-      <br><br><br><br>
+        }
+        ?>
+      </tbody>
+    </table>
+    <small class="text-muted">This application is open-source, you can see algorithm of tests <a href="https://github.com/byruddy/safetygoldenbell-selection" class="text-info" target="_blank">[github/byruddy]</a></small>
+    <br><br><br><br>
 
-    </div>
-    
   </div>
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="<?= BASE_URL ?>assets/b4/js/jquery-3.4.1.slim.min.js"></script>
-  <script src="<?= BASE_URL ?>assets/b4/js/jquery.min.js"></script>
-  <script src="<?= BASE_URL ?>assets/b4/js/popper.min.js"></script>
-  <script src="<?= BASE_URL ?>assets/b4/js/bootstrap.min.js"></script>
-  <script src="<?= BASE_URL ?>assets/b4/js/sweetalert.min.js"></script>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="<?= BASE_URL ?>assets/b4/js/jquery-3.4.1.slim.min.js"></script>
+<script src="<?= BASE_URL ?>assets/b4/js/jquery.min.js"></script>
+<script src="<?= BASE_URL ?>assets/b4/js/popper.min.js"></script>
+<script src="<?= BASE_URL ?>assets/b4/js/bootstrap.min.js"></script>
+<script src="<?= BASE_URL ?>assets/b4/js/sweetalert.min.js"></script>
 </body>
 </html>
 
