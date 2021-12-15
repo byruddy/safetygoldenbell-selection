@@ -13,9 +13,9 @@ if(isset($_GET['id'])){
   if (mysqli_num_rows($result) == 1) {
   	$_SESSION['is_logged_in'] = true;
     $_SESSION['nim'] = $id;
-  	$_SESSION['administrator'] = true;
-  	$_SESSION['guest_name'] 	 = NULL;
-  	echo '{"results": "success"}';
+    $_SESSION['administrator'] = true;
+    $_SESSION['guest_name'] 	 = NULL;
+    echo '{"results": "success"}';
   } else {
   	echo '{"results": "failed"}';
   }

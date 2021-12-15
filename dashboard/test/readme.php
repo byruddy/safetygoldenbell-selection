@@ -7,12 +7,12 @@ if(!isset($_SESSION['is_logged_in'])){
 }
 
 
-        $query2        = "SELECT * FROM test_logs WHERE participant_id = '".$_SESSION['nim']."' LIMIT 1";
-        $getData2      = mysqli_query($link, $query2);
-        $check = mysqli_num_rows($getData2);
-        if ($check > 0) {
-          header('Location: '.BASE_URL.'/dashboard'); exit;
-        }
+$query2        = "SELECT * FROM test_logs WHERE participant_id = '".$_SESSION['nim']."' LIMIT 1";
+$getData2      = mysqli_query($link, $query2);
+$check = mysqli_num_rows($getData2);
+if ($check > 0) {
+  header('Location: '.BASE_URL.'/dashboard'); exit;
+}
 
   // Time Deadline
 $dt_end = new DateTime('December 30, 2019 3:00 PM');
@@ -48,8 +48,8 @@ $countQ = mysqli_num_rows(mysqli_query($link, "SELECT * FROM m_questions"));
       <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto">
 
         <h1 class="display-4" style="font-size: 40px;"><span class="text-primary">Test,</span> readme</h1>
-        <p class="lead mb-4">This test has 100 question and will show question random for you, type answer is multiple choice.<br>for confirm to your answer you can click the answer button. 
-          <br><br>1. Pray before click start button.<br>2. 10 seconds for each question<br><span class="font-weight-normal text-danger">3. Don't reload browser while in test.</span></p>
+        <p class="lead mb-4">This test has 132 question and will show question random for you, type answer is multiple choice.<br>for confirm to your answer you can click the answer button. 
+          <br><br>1. Pray before click start button.<br>2. 20 seconds for each question<br>3. Don't reload browser while in test<br><span class="font-weight-normal text-danger">4. Don't open excel file or sleep browser for cheat, its will be automatically disqualification.</span></p>
           <?php  
           if(isset($_SESSION['guest_name']) || isset($_SESSION['administrator'])){
             ?>

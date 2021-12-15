@@ -1,61 +1,63 @@
 <?php  
-  include_once('../../config/connection.php');
-  include_once('../../config/config.php');
+include_once('../../config/connection.php');
+include_once('../../config/config.php');
   // Auth
-  if(!isset($_SESSION['is_logged_in'])){
-    header('Location: '.BASE_URL); exit;
-  }
+if(!isset($_SESSION['is_logged_in'])){
+  header('Location: '.BASE_URL); exit;
+}
 
-  $query2        = "SELECT * FROM test_logs WHERE participant_id = '".$_SESSION['nim']."' LIMIT 1";
-  $getData2      = mysqli_query($link, $query2);
-  $check = mysqli_num_rows($getData2);
-  if ($check > 0) {
-    header('Location: '.BASE_URL.'/dashboard'); exit;
-  }
+$query2        = "SELECT * FROM test_logs WHERE participant_id = '".$_SESSION['nim']."' LIMIT 1";
+$getData2      = mysqli_query($link, $query2);
+$check = mysqli_num_rows($getData2);
+if ($check > 0) {
+  header('Location: '.BASE_URL.'/dashboard'); exit;
+}
 
-  $timeStart  = date('H:i:s');
+$timeStart  = date('H:i:s');
 
-  if(isset($_SESSION['administrator'])){
-    $formula    = mysqli_fetch_assoc(mysqli_query($link, "SELECT formula FROM app_config"))['formula'];
-  } else {
-    $formula  = '1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30';  
-  }
+if(isset($_SESSION['administrator'])){
+  $formula    = mysqli_fetch_assoc(mysqli_query($link, "SELECT formula FROM app_config"))['formula'];
+} else {
+  $formula  = '1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30';  
+}
 
   // Inject formula
-  $formula = "";
-  $runSql = mysqli_query($link, "SELECT * FROM m_questions WHERE id IN (SELECT question_id FROM question_answers)");
-  while ($row = mysqli_fetch_assoc($runSql)) {
-    $formula .= $row['id'].',';
-  }
+$formula = "";
+$runSql = mysqli_query($link, "SELECT * FROM m_questions WHERE id IN (SELECT question_id FROM question_answers)");
+while ($row = mysqli_fetch_assoc($runSql)) {
+  $formula .= $row['id'].',';
+}
 
-  $formula = substr($formula, 0,-1);
+$formula = substr($formula, 0,-1);
 
-  $diceTemp   = explode(',', $formula);
-  $keyrand    = array_rand($diceTemp, 1);
-  shuffle($diceTemp);
+$diceTemp   = explode(',', $formula);
+$keyrand    = array_rand($diceTemp, 1);
+shuffle($diceTemp);
 
-  // $sql = "INSERT INTO tests VALUES (NULL, '22','".implode(',',$diceTemp)."')"; 
-  // if (!mysqli_query($link, $sql)) {
-  //   echo "Error: " . $sql . "<br>" . mysqli_error($link);
-  // }
+$diceSelect = $diceTemp[$keyrand];
 
-  $diceSelect = $diceTemp[$keyrand];
+// var_dump($keyrand); exit;
 
-  $query        = "SELECT * FROM m_questions WHERE id = ".$diceTemp[$keyrand];
-  $getData      = mysqli_query($link, $query);
-  $data         = mysqli_fetch_assoc($getData);
-  
-  
-  $progressValue = ((1/count($diceTemp))*100);
+$query        = "SELECT * FROM m_questions WHERE id = ".$diceTemp[$keyrand];
+$getData      = mysqli_query($link, $query);
+
+// if ($getData) {
+//   echo "Error: " . $sql . "<br>" . mysqli_error($link);
+// }
+
+$data         = mysqli_fetch_assoc($getData);
+
+
+$progressValue = ((1/count($diceTemp))*100);
 ?>
 <!doctype html>
-<html lang="en">
+  <html lang="en">
   <head>
     <link rel="icon" type="image/png" href="<?= BASE_URL ?>assets/img/favicon.ico">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  
+
     <!-- Bootstrap 4 CSS -->
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/b4/css/bootstrap.min.css">
     <!-- Font Awesomee 4 -->
@@ -117,7 +119,7 @@
       
       <div id="quiz_process" style="display: nonae;">
         <div class="text-center mb-2">
-          <h6>Sisa Waktu Anda : <b class="text-success" id="countdown">10</b></h6>
+          <h6>Sisa Waktu Anda : <b class="text-success" id="countdown">20</b></h6>
         </div>
         <div class="text-center mb-2">
           <div class="progress mt-2" style="height: 5px;">
@@ -127,7 +129,7 @@
         <div id="lookAnswer" style="min-height: 350px;">
           <p class="loader" style="display: none;">Memuat ...</p>
           <small class="text-muted loadData" id="category" style="opacity: 0.7">Primary Safety Quiz</small>
-          <p class="lead mb-4 loadData" id="question" qid="<?= $data['id']; ?>"><?= $data['id']; ?> - <?= $data['question']; ?></p>
+          <p class="lead mb-4 loadData" id="question" qid="<?= $data['id']; ?>"><?= $data['question']; ?></p>
 
           <?php  
           $query2     = "SELECT * FROM question_answers WHERE question_id = ".$data['id'];
@@ -135,10 +137,10 @@
           $choice     = mysqli_fetch_assoc($getDataMC);
           
 
-          echo '<a class="btn btn-md btn-block mt-3 btn-light choiceAnswer" id="choice_a" style="border: 1px solid #D2D2D2;" href="#" role="button" action="pass">'.$choice['a'].'</a>';
-          echo '<a class="btn btn-md btn-block mt-3 btn-light choiceAnswer" id="choice_b" style="border: 1px solid #D2D2D2;" href="#" role="button" action="pass">'.$choice['b'].'</a>';
-          echo '<a class="btn btn-md btn-block mt-3 btn-light choiceAnswer" id="choice_c" style="border: 1px solid #D2D2D2;" href="#" role="button" action="pass">'.$choice['c'].'</a>';
-          echo '<a class="btn btn-md btn-block mt-3 btn-light choiceAnswer" id="choice_d" style="border: 1px solid #D2D2D2;" href="#" role="button" action="pass">'.$choice['d'].'</a>';
+          echo '<a class="btn btn-md btn-block mt-3 btn-light choiceAnswer" id="choice_a" style="border: 1px solid #D2D2D2; display: none;" href="#" role="button" action="pass">'.$choice['a'].'</a>';
+          echo '<a class="btn btn-md btn-block mt-3 btn-light choiceAnswer" id="choice_b" style="border: 1px solid #D2D2D2; display: none;" href="#" role="button" action="pass">'.$choice['b'].'</a>';
+          echo '<a class="btn btn-md btn-block mt-3 btn-light choiceAnswer" id="choice_c" style="border: 1px solid #D2D2D2; display: none;" href="#" role="button" action="pass">'.$choice['c'].'</a>';
+          echo '<a class="btn btn-md btn-block mt-3 btn-light choiceAnswer" id="choice_d" style="border: 1px solid #D2D2D2; display: none;" href="#" role="button" action="pass">'.$choice['d'].'</a>';
           ?>
 
           <h5 class="wait-new font-weight-normal" id="answer" style="display: none;background-color: rgba(255, 234, 167,0.7); padding: 15px; margin-top: 10px; border: 1px dotted rgba(253, 203, 110,1.0); border-radius: 4px; color: #444;"><?= $data['answer']; ?></h5>
@@ -149,7 +151,7 @@
       <div id="saving_answer" style="display: none">
         <i>Please wait, saving your answer..</i>
       </div>
-    
+
     </div>
     <div id="process" class="d-none">true</div>
     <div id="bindQTemp" class="d-none"><?= implode($diceTemp,','); ?></div>
@@ -168,7 +170,7 @@
 
         window.onbeforeunload = function(event)
         {
-            return confirm("Confirm refresh");
+          return confirm("Confirm refresh");
         };
 
         // Countdown
@@ -176,10 +178,10 @@
         };
         // test();
 
-      var is_finish = false;
-      var counter = 10;
+        var is_finish = false;
+        var counter = 20;
 
-      setInterval(function() {
+        setInterval(function() {
 
         // if ($('#countdown').text() == '-') {
         //     $('#countdown').text('10');
@@ -192,28 +194,32 @@
           span.innerHTML = counter;
         }
 
+        if (counter == 10) {
+          $('.choiceAnswer').show();
+        }
+
         if (counter <= 5 && counter > 0) {
           $('#countdown').removeClass('text-success');
           $('#countdown').addClass('text-danger');
         }
         // Display 'counter' wherever you want to display it.
         if (counter === 0) {
-            $('#countdown').text('10');
-            $('#countdown').removeClass('text-danger');
-            $('#countdown').addClass('text-success');
-            if (!is_finish) {
-              next(false);
-            }
-            clearInterval(counter);
+          $('#countdown').text('20');
+          $('#countdown').removeClass('text-danger');
+          $('#countdown').addClass('text-success');
+          if (!is_finish) {
+            next(false);
+          }
+          clearInterval(counter);
         }
 
-        }, 1000)
+      }, 1000)
 
         $('.choiceAnswer').click(function(e){
-           e.preventDefault();
-           var answer = $(this).text();
-           next(answer);
-        });
+         e.preventDefault();
+         var answer = $(this).text();
+         next(answer);
+       });
 
         var countQuestionProgress = 1;
         var formula = "<?= implode(",", $diceTemp); ?>";
@@ -221,50 +227,50 @@
 
         // Next
         function next(answer){
+          $('.choiceAnswer').hide();
+
+          clearInterval(counter);
+          counter = 21;
+          $('#countdown').text('20');
+          $('#countdown').removeClass('text-danger');
+          $('#countdown').addClass('text-success');
+          $('#quiz_process').hide();
+          $('#saving_answer').show();
+          $.post("<?= BASE_URL ?>config/functions/save_answer.php",
+          {
+            question_id: $('#question').attr('qid'),
+            answer : answer,
+            formula : formula
+          }, function(response) {
+            $('#saving_answer').hide();
+            var resp = $.parseJSON(response);
+
+            if (resp.status == 'finish') {
+              is_finish = true;
+              $('.r_timeStart').text(resp.r_timeStart);
+              $('.r_timeFinish').text(resp.r_timeFinish);
+              $('.pass').text(resp.pass);
+              $('.fail').text(resp.failed);
+              $('.score').text(resp.score);
+
+              $('#finish').show();
+            } else {
+              $('#quiz_process').show();
+              $("#question").html(resp.question);
+              $('#question').attr('qid', resp.qid);
+              $('#choice_a').text(resp.a);
+              $('#choice_b').text(resp.b);
+              $('#choice_c').text(resp.c);
+              $('#choice_d').text(resp.d);
+              formula = resp.formula;
 
 
-            clearInterval(counter);
-            counter = 11;
-            $('#countdown').text('10');
-            $('#countdown').removeClass('text-danger');
-            $('#countdown').addClass('text-success');
-            $('#quiz_process').hide();
-            $('#saving_answer').show();
-            $.post("<?= BASE_URL ?>config/functions/save_answer.php",
-            {
-              question_id: $('#question').attr('qid'),
-              answer : answer,
-              formula : formula
-            }, function(response) {
-              $('#saving_answer').hide();
-              var resp = $.parseJSON(response);
-
-              if (resp.status == 'finish') {
-                is_finish = true;
-                $('.r_timeStart').text(resp.r_timeStart);
-                $('.r_timeFinish').text(resp.r_timeFinish);
-                $('.pass').text(resp.pass);
-                $('.fail').text(resp.failed);
-                $('.score').text(resp.score);
-
-                $('#finish').show();
-              } else {
-                $('#quiz_process').show();
-                $("#question").html(resp.qid + ' - ' + resp.question);
-                $('#question').attr('qid', resp.qid);
-                $('#choice_a').text(resp.a);
-                $('#choice_b').text(resp.b);
-                $('#choice_c').text(resp.c);
-                $('#choice_d').text(resp.d);
-                formula = resp.formula;
-
-
-                countQuestionProgress++;
-                var runProgress = (countQuestionProgress/<?= count($diceTemp)+1; ?>)*100;
-                if(countQuestionProgress == <?= count($diceTemp)+1; ?>){
-                  runProgress = 99;
-                }
-                $('.progress-bar').css('width', runProgress+'%').attr('aria-valuenow', runProgress);
+              countQuestionProgress++;
+              var runProgress = (countQuestionProgress/<?= count($diceTemp)+1; ?>)*100;
+              if(countQuestionProgress == <?= count($diceTemp)+1; ?>){
+                runProgress = 99;
+              }
+              $('.progress-bar').css('width', runProgress+'%').attr('aria-valuenow', runProgress);
                 // console.log(resp);
                 // test();
               }
@@ -282,6 +288,6 @@
       });
     </script>
   </body>
-</html>
+  </html>
 
   

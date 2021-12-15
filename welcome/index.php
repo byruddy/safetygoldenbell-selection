@@ -29,7 +29,7 @@ if(isset($_SESSION['is_logged_in'])){
           <h4><span class="text-muted">POSCO ICT-INDONESIA</span></h4>
 
           <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
-            <a class="py-2 text-dark text-decoration-none" href="#">About</a>
+            <a class="py-2 text-dark text-decoration-none" href="#">BETA</a>
           </nav>
         </div>
 
@@ -61,14 +61,14 @@ if(isset($_SESSION['is_logged_in'])){
                 <h4 class="my-0 fw-normal">Event</h4>
               </div>
               <div class="card-body">
-                <h1 class="card-title pricing-card-title">23 <small class="text-muted fw-light"> Days</small></h1>
+                <h1 class="card-title pricing-card-title">Maret <small class="text-muted fw-light"> 2022</small></h1>
                 <ul class="list-unstyled mt-3 mb-4">
-                  <li>10 users included</li>
-                  <li>2 GB of storage</li>
-                  <li>Email support</li>
-                  <li>Help center access</li>
+                  <li>KP Auditorium</li>
+                  <li>400 Participants</li>
+                  <li>KP/Partner Finalists: 150</li>
+                  <li>Cheering Teams : 250 persons</li>
                 </ul>
-                <button type="button" class="w-100 btn btn-lg btn-outline-primary">Learn More</button>
+                <button type="button" class="w-100 btn btn-lg btn-outline-primary cs">Detail</button>
               </div>
             </div>
           </div>
@@ -78,14 +78,14 @@ if(isset($_SESSION['is_logged_in'])){
                 <h4 class="my-0 fw-normal">Total Questions</h4>
               </div>
               <div class="card-body">
-                <h1 class="card-title pricing-card-title">500</h1>
+                <h1 class="card-title pricing-card-title">132</h1>
                 <ul class="list-unstyled mt-3 mb-4">
-                  <li>20 users included</li>
-                  <li>10 GB of storage</li>
-                  <li>Priority email support</li>
-                  <li>Help center access</li>
+                  <li>Primary & Secondary Safety</li>
+                  <li>Occupational Health</li>
+                  <li>Disaaster Prevention</li>
+                  <li>Posting Article</li>
                 </ul>
-                <button type="button" class="w-100 btn btn-lg btn-outline-primary">Detail</button>
+                <button type="button" class="w-100 btn btn-lg btn-outline-primary cs">Detail</button>
               </div>
             </div>
           </div>
@@ -107,6 +107,10 @@ if(isset($_SESSION['is_logged_in'])){
 
     <script>
       $(document).ready(function(){
+
+        $(".cs").click(function(){
+          swal('Coming soon');
+        });
 
         $('#enterRoom').click(function(){
           swal({
@@ -138,7 +142,7 @@ if(isset($_SESSION['is_logged_in'])){
               window.location.href = "<?= BASE_URL.'dashboard/?ref=welcome' ?>";
             }
             else if (movie == 'failed') {
-              swal("Oh noes!", "Your password isn't match in database!", "error");
+              swal("Oh noes!", "Your id isn't match in database!", "error");
             }
           });
 
