@@ -268,7 +268,6 @@ $progressValue = ((1/count($diceTemp))*100);
               $('#finish').show();
             } else {
               $('#quiz_process').show();
-              //$('.choiceAnswer').hide();
               $("#question").html(resp.question);
               $('#question').attr('qid', resp.qid);
               $('#choice_a').text(resp.a);

@@ -78,7 +78,7 @@ if(isset($_SESSION['is_logged_in'])){
                 <h4 class="my-0 fw-normal">Total Questions</h4>
               </div>
               <div class="card-body">
-                <h1 class="card-title pricing-card-title">50</h1>
+                <h1 class="card-title pricing-card-title">40</h1>
                 <ul class="list-unstyled mt-3 mb-4">
                   <li>Primary & Secondary Safety</li>
                   <li>Occupational Health</li>
