@@ -1,0 +1,169 @@
+[15-Dec-2021 07:23:18 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 8
+[15-Dec-2021 07:23:18 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 14
+[15-Dec-2021 14:23:18 Asia/Bangkok] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:23:18 Asia/Bangkok] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:23:18 Asia/Bangkok] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 11
+[15-Dec-2021 14:23:18 Asia/Bangkok] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 13
+[15-Dec-2021 14:32:25 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:32:25 Asia/Bangkok] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:32:25 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:32:25 Asia/Bangkok] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:32:25 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 11
+[15-Dec-2021 14:32:25 Asia/Bangkok] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 11
+[15-Dec-2021 14:32:25 Asia/Bangkok] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 13
+[15-Dec-2021 14:32:32 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:32:32 Asia/Bangkok] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:32:32 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:32:32 Asia/Bangkok] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:32:32 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 11
+[15-Dec-2021 14:32:32 Asia/Bangkok] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 11
+[15-Dec-2021 14:32:32 Asia/Bangkok] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 13
+[15-Dec-2021 14:33:05 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:33:05 Asia/Bangkok] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:33:05 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:33:05 Asia/Bangkok] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:33:05 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 11
+[15-Dec-2021 14:33:05 Asia/Bangkok] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 11
+[15-Dec-2021 14:33:05 Asia/Bangkok] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 13
+[15-Dec-2021 14:33:29 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:33:29 Asia/Bangkok] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:33:29 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:33:29 Asia/Bangkok] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:33:29 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 11
+[15-Dec-2021 14:33:29 Asia/Bangkok] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 11
+[15-Dec-2021 14:33:29 Asia/Bangkok] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 13
+[15-Dec-2021 14:34:12 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:34:12 Asia/Bangkok] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:34:12 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:34:12 Asia/Bangkok] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:34:12 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 11
+[15-Dec-2021 14:34:12 Asia/Bangkok] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 11
+[15-Dec-2021 14:34:12 Asia/Bangkok] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 13
+[15-Dec-2021 14:34:55 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:34:55 Asia/Bangkok] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:34:55 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:34:55 Asia/Bangkok] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:34:55 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 11
+[15-Dec-2021 14:34:55 Asia/Bangkok] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 11
+[15-Dec-2021 14:34:55 Asia/Bangkok] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 15
+[15-Dec-2021 14:35:34 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:35:34 Asia/Bangkok] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:35:34 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:35:34 Asia/Bangkok] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:35:34 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 11
+[15-Dec-2021 14:35:34 Asia/Bangkok] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 11
+[15-Dec-2021 14:35:34 Asia/Bangkok] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 13
+[15-Dec-2021 14:36:09 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:36:09 Asia/Bangkok] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:36:09 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:36:09 Asia/Bangkok] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:36:09 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 11
+[15-Dec-2021 14:36:09 Asia/Bangkok] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 11
+[15-Dec-2021 14:36:09 Asia/Bangkok] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 15
+[15-Dec-2021 14:36:11 Asia/Bangkok] PHP Notice:  session_start(): A session had already been started - ignoring in /home/rsudjars/quiz.rsudjarse.id/config/functions/signout.php on line 6
+[15-Dec-2021 14:37:30 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:37:30 Asia/Bangkok] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:37:30 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:37:30 Asia/Bangkok] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:37:30 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 11
+[15-Dec-2021 14:37:30 Asia/Bangkok] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 11
+[15-Dec-2021 14:37:30 Asia/Bangkok] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 15
+[15-Dec-2021 14:37:35 Asia/Bangkok] PHP Notice:  session_start(): A session had already been started - ignoring in /home/rsudjars/quiz.rsudjarse.id/config/functions/signout.php on line 6
+[15-Dec-2021 14:38:10 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:38:10 Asia/Bangkok] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:38:10 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:38:10 Asia/Bangkok] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:38:10 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 11
+[15-Dec-2021 14:38:10 Asia/Bangkok] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 11
+[15-Dec-2021 14:38:10 Asia/Bangkok] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 15
+[15-Dec-2021 14:38:48 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:38:48 Asia/Bangkok] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:38:48 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:38:48 Asia/Bangkok] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:38:48 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 11
+[15-Dec-2021 14:38:48 Asia/Bangkok] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 11
+[15-Dec-2021 14:38:48 Asia/Bangkok] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 15
+[15-Dec-2021 14:39:16 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:39:16 Asia/Bangkok] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:39:16 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:39:16 Asia/Bangkok] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:39:16 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 11
+[15-Dec-2021 14:39:16 Asia/Bangkok] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 11
+[15-Dec-2021 14:39:16 Asia/Bangkok] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 15
+[15-Dec-2021 14:39:51 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:39:51 Asia/Bangkok] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:39:51 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:39:51 Asia/Bangkok] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:39:51 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 11
+[15-Dec-2021 14:39:51 Asia/Bangkok] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 11
+[15-Dec-2021 14:39:51 Asia/Bangkok] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 15
+[15-Dec-2021 14:40:31 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:40:31 Asia/Bangkok] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:40:31 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:40:31 Asia/Bangkok] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:40:31 Asia/Bangkok] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 14
+[15-Dec-2021 14:40:54 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:40:54 Asia/Bangkok] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:40:54 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:40:54 Asia/Bangkok] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:40:54 Asia/Bangkok] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 14
+[15-Dec-2021 14:41:34 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:41:34 Asia/Bangkok] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:41:34 Asia/Bangkok] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 9
+[15-Dec-2021 14:41:34 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:41:34 Asia/Bangkok] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:41:34 Asia/Bangkok] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 14
+[15-Dec-2021 14:42:05 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:42:05 Asia/Bangkok] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:42:05 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:42:05 Asia/Bangkok] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:42:05 Asia/Bangkok] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 14
+[15-Dec-2021 14:42:10 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:42:10 Asia/Bangkok] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:42:10 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:42:10 Asia/Bangkok] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:42:10 Asia/Bangkok] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 14
+[15-Dec-2021 14:42:27 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:42:27 Asia/Bangkok] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:42:27 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:42:27 Asia/Bangkok] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:42:27 Asia/Bangkok] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 14
+[15-Dec-2021 14:42:52 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:42:52 Asia/Bangkok] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:42:52 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:42:52 Asia/Bangkok] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:42:52 Asia/Bangkok] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 14
+[15-Dec-2021 14:43:21 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:43:21 Asia/Bangkok] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:43:21 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:43:21 Asia/Bangkok] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:43:21 Asia/Bangkok] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 14
+[15-Dec-2021 14:44:02 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:44:02 Asia/Bangkok] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:44:02 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:44:02 Asia/Bangkok] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:44:02 Asia/Bangkok] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 14
+[15-Dec-2021 14:44:05 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:44:05 Asia/Bangkok] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:44:05 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:44:05 Asia/Bangkok] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:44:05 Asia/Bangkok] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 14
+[15-Dec-2021 14:44:57 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:44:57 Asia/Bangkok] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:44:57 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:44:57 Asia/Bangkok] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:44:57 Asia/Bangkok] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 11
+[15-Dec-2021 14:45:07 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:45:07 Asia/Bangkok] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 7
+[15-Dec-2021 14:45:07 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:45:07 Asia/Bangkok] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 10
+[15-Dec-2021 14:45:07 Asia/Bangkok] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rsudjars/quiz.rsudjarse.id/config/functions/auth.php on line 11
+[15-Dec-2021 14:46:15 Asia/Bangkok] PHP Notice:  session_start(): A session had already been started - ignoring in /home/rsudjars/quiz.rsudjarse.id/config/functions/signout.php on line 6
+[15-Dec-2021 14:56:22 Asia/Bangkok] PHP Notice:  session_start(): A session had already been started - ignoring in /home/rsudjars/quiz.rsudjarse.id/config/functions/signout.php on line 6
+[15-Dec-2021 14:56:32 Asia/Bangkok] PHP Notice:  session_start(): A session had already been started - ignoring in /home/rsudjars/quiz.rsudjarse.id/config/functions/signout.php on line 6
+[15-Dec-2021 15:05:30 Asia/Bangkok] PHP Notice:  session_start(): A session had already been started - ignoring in /home/rsudjars/quiz.rsudjarse.id/config/functions/signout.php on line 6
+[15-Dec-2021 15:52:05 Asia/Bangkok] PHP Notice:  session_start(): A session had already been started - ignoring in /home/rsudjars/quiz.rsudjarse.id/config/functions/signout.php on line 6
+[15-Dec-2021 17:53:32 Asia/Bangkok] PHP Notice:  session_start(): A session had already been started - ignoring in /home/rsudjars/quiz.rsudjarse.id/config/functions/signout.php on line 6
+[16-Dec-2021 08:23:13 Asia/Bangkok] PHP Notice:  session_start(): A session had already been started - ignoring in /home/rsudjars/quiz.rsudjarse.id/config/functions/signout.php on line 6
+[16-Dec-2021 08:24:57 Asia/Bangkok] PHP Notice:  session_start(): A session had already been started - ignoring in /home/rsudjars/quiz.rsudjarse.id/config/functions/signout.php on line 6
+[16-Dec-2021 08:32:33 Asia/Bangkok] PHP Notice:  session_start(): A session had already been started - ignoring in /home/rsudjars/quiz.rsudjarse.id/config/functions/signout.php on line 6

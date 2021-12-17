@@ -1,0 +1,30 @@
+[15-Dec-2021 14:36:09 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/dashboard/index.php on line 13
+[15-Dec-2021 14:36:09 Asia/Bangkok] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/dashboard/index.php on line 13
+[15-Dec-2021 14:36:09 Asia/Bangkok] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rsudjars/quiz.rsudjarse.id/dashboard/index.php on line 13
+[15-Dec-2021 14:36:09 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/dashboard/index.php on line 18
+[15-Dec-2021 14:36:09 Asia/Bangkok] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/dashboard/index.php on line 18
+[15-Dec-2021 14:36:09 Asia/Bangkok] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rsudjars/quiz.rsudjarse.id/dashboard/index.php on line 18
+[15-Dec-2021 14:36:09 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/dashboard/index.php on line 19
+[15-Dec-2021 14:36:09 Asia/Bangkok] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/dashboard/index.php on line 19
+[15-Dec-2021 14:36:09 Asia/Bangkok] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rsudjars/quiz.rsudjarse.id/dashboard/index.php on line 19
+[15-Dec-2021 14:36:09 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/dashboard/index.php on line 22
+[15-Dec-2021 14:36:09 Asia/Bangkok] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/dashboard/index.php on line 22
+[15-Dec-2021 14:36:09 Asia/Bangkok] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rsudjars/quiz.rsudjarse.id/dashboard/index.php on line 23
+[15-Dec-2021 14:36:09 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/dashboard/index.php on line 58
+[15-Dec-2021 14:36:09 Asia/Bangkok] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/dashboard/index.php on line 58
+[15-Dec-2021 14:36:09 Asia/Bangkok] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rsudjars/quiz.rsudjarse.id/dashboard/index.php on line 59
+[15-Dec-2021 14:37:30 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/dashboard/index.php on line 13
+[15-Dec-2021 14:37:30 Asia/Bangkok] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/dashboard/index.php on line 13
+[15-Dec-2021 14:37:30 Asia/Bangkok] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rsudjars/quiz.rsudjarse.id/dashboard/index.php on line 13
+[15-Dec-2021 14:37:30 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/dashboard/index.php on line 18
+[15-Dec-2021 14:37:30 Asia/Bangkok] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/dashboard/index.php on line 18
+[15-Dec-2021 14:37:30 Asia/Bangkok] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rsudjars/quiz.rsudjarse.id/dashboard/index.php on line 18
+[15-Dec-2021 14:37:30 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/dashboard/index.php on line 19
+[15-Dec-2021 14:37:30 Asia/Bangkok] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/dashboard/index.php on line 19
+[15-Dec-2021 14:37:30 Asia/Bangkok] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rsudjars/quiz.rsudjarse.id/dashboard/index.php on line 19
+[15-Dec-2021 14:37:30 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/dashboard/index.php on line 22
+[15-Dec-2021 14:37:30 Asia/Bangkok] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/dashboard/index.php on line 22
+[15-Dec-2021 14:37:30 Asia/Bangkok] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rsudjars/quiz.rsudjarse.id/dashboard/index.php on line 23
+[15-Dec-2021 14:37:30 Asia/Bangkok] PHP Notice:  Undefined variable: link in /home/rsudjars/quiz.rsudjarse.id/dashboard/index.php on line 58
+[15-Dec-2021 14:37:30 Asia/Bangkok] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rsudjars/quiz.rsudjarse.id/dashboard/index.php on line 58
+[15-Dec-2021 14:37:30 Asia/Bangkok] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rsudjars/quiz.rsudjarse.id/dashboard/index.php on line 59

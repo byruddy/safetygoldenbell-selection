@@ -37,7 +37,7 @@ $countQ = mysqli_num_rows(mysqli_query($link, "SELECT * FROM m_questions"));
   </head>
   <body>
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-      <h5 class="my-0 mr-md-auto font-weight-light"><a href="<?= BASE_URL; ?>dashboard" class="text-primary title-dashboard"><span class="font-weight-normal">Dashboard</span></a></h5>
+      <h5 class="my-0 mr-md-auto font-weight-light"><a href="<?= BASE_URL; ?>dashboard" class="text-primary title-dashboard"><span class="font-weight-normal">POSCO ICT-INDONESIA</span></a></h5>
       <nav class="my-2 my-md-0 mr-md-3">
         <a class="p-2 text-muted" href="<?= BASE_URL ?>dashboard/about.php"><i class="fa fa-question-circle" aria-hidden="true"></i></a>
       </nav>
@@ -48,8 +48,11 @@ $countQ = mysqli_num_rows(mysqli_query($link, "SELECT * FROM m_questions"));
       <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto">
 
         <h1 class="display-4" style="font-size: 40px;"><span class="text-primary">Test,</span> readme</h1>
-        <p class="lead mb-4">This test has 132 question and will show question random for you, type answer is multiple choice.<br>for confirm to your answer you can click the answer button. 
-          <br><br>1. Pray before click start button.<br>2. 20 seconds for each question<br>3. Don't reload browser while in test<br><span class="font-weight-normal text-danger">4. Don't open excel file or sleep browser for cheat, its will be automatically disqualification.</span></p>
+        <div class="alert alert-warning" role="alert">
+          Bug info: Just ignore if time stopped, the ranks will be check your duration of test.
+        </div>
+        <p class="lead mb-4">This test has 50 question and will show question random for you, type answer is multiple choice.<br>for confirm to your answer you can click the answer button. 
+          <br><br>1. Pray before click start button.<br>2. 10 seconds for each question<br>3. Don't reload browser while in test<br><span class="font-weight-normal text-danger">4. Don't open excel file or sleep browser for cheat, its will be automatically disqualification.</span></p>
           <?php  
           if(isset($_SESSION['guest_name']) || isset($_SESSION['administrator'])){
             ?>

@@ -1,0 +1,328 @@
+[15-Dec-2021 07:22:10 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 8
+[15-Dec-2021 07:22:10 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 14
+[15-Dec-2021 07:22:12 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 8
+[15-Dec-2021 07:22:12 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 14
+[15-Dec-2021 07:22:29 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 8
+[15-Dec-2021 07:22:29 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 14
+[15-Dec-2021 07:22:31 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 8
+[15-Dec-2021 07:22:31 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 14
+[15-Dec-2021 07:22:46 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 8
+[15-Dec-2021 07:22:46 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 14
+[15-Dec-2021 07:22:46 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 8
+[15-Dec-2021 07:22:46 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 14
+[15-Dec-2021 07:22:47 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 8
+[15-Dec-2021 07:22:47 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 14
+[15-Dec-2021 07:22:47 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 8
+[15-Dec-2021 07:22:47 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 14
+[15-Dec-2021 07:22:47 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 8
+[15-Dec-2021 07:22:47 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 14
+[15-Dec-2021 07:22:47 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 8
+[15-Dec-2021 07:22:47 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 14
+[15-Dec-2021 07:22:48 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 8
+[15-Dec-2021 07:22:48 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 14
+[15-Dec-2021 07:22:48 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 8
+[15-Dec-2021 07:22:48 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 14
+[15-Dec-2021 07:23:01 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 8
+[15-Dec-2021 07:23:01 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 14
+[15-Dec-2021 07:23:01 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 8
+[15-Dec-2021 07:23:01 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 14
+[15-Dec-2021 07:23:02 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 8
+[15-Dec-2021 07:23:02 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 14
+[15-Dec-2021 07:23:02 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 8
+[15-Dec-2021 07:23:02 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 14
+[15-Dec-2021 07:23:03 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 8
+[15-Dec-2021 07:23:03 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 14
+[15-Dec-2021 07:23:03 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 8
+[15-Dec-2021 07:23:03 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 14
+[15-Dec-2021 07:23:03 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 8
+[15-Dec-2021 07:23:03 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 14
+[15-Dec-2021 07:23:03 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 8
+[15-Dec-2021 07:23:03 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 14
+[15-Dec-2021 07:23:04 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 8
+[15-Dec-2021 07:23:04 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 14
+[15-Dec-2021 07:23:04 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 8
+[15-Dec-2021 07:23:04 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 14
+[15-Dec-2021 07:23:04 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 8
+[15-Dec-2021 07:23:04 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 14
+[15-Dec-2021 07:23:04 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 8
+[15-Dec-2021 07:23:04 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 14
+[15-Dec-2021 07:23:14 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 8
+[15-Dec-2021 07:23:14 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 14
+[15-Dec-2021 07:23:15 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 8
+[15-Dec-2021 07:23:15 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 14
+[15-Dec-2021 07:23:15 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 8
+[15-Dec-2021 07:23:15 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 14
+[15-Dec-2021 07:23:20 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 8
+[15-Dec-2021 07:23:20 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 14
+[15-Dec-2021 07:23:21 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 8
+[15-Dec-2021 07:23:21 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 14
+[15-Dec-2021 07:23:21 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 8
+[15-Dec-2021 07:23:21 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 14
+[15-Dec-2021 07:24:09 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 8
+[15-Dec-2021 07:24:09 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 14
+[15-Dec-2021 07:24:09 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 8
+[15-Dec-2021 07:24:09 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 14
+[15-Dec-2021 07:24:10 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 8
+[15-Dec-2021 07:24:10 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 14
+[15-Dec-2021 07:24:16 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 8
+[15-Dec-2021 07:24:16 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 14
+[15-Dec-2021 07:24:37 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 8
+[15-Dec-2021 07:24:37 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 14
+[15-Dec-2021 07:26:25 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 16
+[15-Dec-2021 07:26:25 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 16
+[15-Dec-2021 07:26:25 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'sgx17.dewaweb.com' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 16
+[15-Dec-2021 07:26:26 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 16
+[15-Dec-2021 07:26:26 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 16
+[15-Dec-2021 07:26:26 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'sgx17.dewaweb.com' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 16
+[15-Dec-2021 07:26:27 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 16
+[15-Dec-2021 07:26:27 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 16
+[15-Dec-2021 07:26:27 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'sgx17.dewaweb.com' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 16
+[15-Dec-2021 07:26:27 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 16
+[15-Dec-2021 07:26:27 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 16
+[15-Dec-2021 07:26:27 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'sgx17.dewaweb.com' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 16
+[15-Dec-2021 07:26:27 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 16
+[15-Dec-2021 07:26:27 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 16
+[15-Dec-2021 07:26:27 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'sgx17.dewaweb.com' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 16
+[15-Dec-2021 07:26:28 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 16
+[15-Dec-2021 07:26:28 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 16
+[15-Dec-2021 07:26:28 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'sgx17.dewaweb.com' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 16
+[15-Dec-2021 07:26:28 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 16
+[15-Dec-2021 07:26:28 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 16
+[15-Dec-2021 07:26:28 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'sgx17.dewaweb.com' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 16
+[15-Dec-2021 07:26:28 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 16
+[15-Dec-2021 07:26:28 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 16
+[15-Dec-2021 07:26:28 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'sgx17.dewaweb.com' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 16
+[15-Dec-2021 07:26:28 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 16
+[15-Dec-2021 07:26:28 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 16
+[15-Dec-2021 07:26:28 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'sgx17.dewaweb.com' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 16
+[15-Dec-2021 07:26:29 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 16
+[15-Dec-2021 07:26:29 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 16
+[15-Dec-2021 07:26:29 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'sgx17.dewaweb.com' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 16
+[15-Dec-2021 07:26:29 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 16
+[15-Dec-2021 07:26:29 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 16
+[15-Dec-2021 07:26:29 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'sgx17.dewaweb.com' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 16
+[15-Dec-2021 07:26:29 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 16
+[15-Dec-2021 07:26:29 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 16
+[15-Dec-2021 07:26:29 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'sgx17.dewaweb.com' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 16
+[15-Dec-2021 07:26:29 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 16
+[15-Dec-2021 07:26:29 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 16
+[15-Dec-2021 07:26:29 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'sgx17.dewaweb.com' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 16
+[15-Dec-2021 07:26:50 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:50 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:50 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:50 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:51 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:51 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:51 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:51 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:52 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:52 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:52 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:52 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:52 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:52 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:52 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:52 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:53 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:53 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:53 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:53 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:53 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:53 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:53 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:53 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:53 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:53 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:53 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:53 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:55 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:55 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:55 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:55 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:55 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:55 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:55 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:55 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:55 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:55 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:55 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:55 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:56 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:56 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:56 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:26:56 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:22 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:22 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:22 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:22 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:23 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:23 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:23 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:23 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:23 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:23 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:23 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:23 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:23 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:23 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:23 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:23 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:24 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:24 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:24 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:24 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:24 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:24 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:24 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:24 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:24 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:24 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:24 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:24 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:25 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:25 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:25 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:25 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:39 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:39 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:39 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:39 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:40 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:40 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:40 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:40 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:40 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:40 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:40 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:40 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:41 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:41 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:41 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:41 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:41 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:41 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:41 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:41 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:42 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:42 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:42 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:42 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:42 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:42 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:42 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:42 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:42 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:42 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:42 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:42 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:42 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:42 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:42 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:42 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:43 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:43 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:43 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:43 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:43 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:43 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:43 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:43 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:43 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:43 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:43 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:43 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:43 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:43 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:43 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:43 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:43 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:43 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:43 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:43 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:44 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:44 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:44 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:44 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:44 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:44 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:44 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:44 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:44 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:44 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:44 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:44 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:44 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:44 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:44 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:44 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:45 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:45 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:45 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:45 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:45 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:45 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:45 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:45 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:59 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:59 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:59 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:59 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:59 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:59 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:59 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:27:59 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:28:00 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:28:00 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:28:00 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:28:00 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:28:00 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:28:00 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:28:00 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:28:00 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:28:00 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:28:00 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:28:00 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:28:00 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:28:00 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:28:00 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:28:00 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:28:00 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:28:18 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:28:18 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:28:18 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:28:18 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:28:18 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:28:18 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:28:18 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:28:18 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:28:18 UTC] PHP Notice:  Undefined variable: host in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:28:18 UTC] PHP Notice:  Undefined variable: user in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:28:18 UTC] PHP Notice:  Undefined variable: pass in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:28:18 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 17
+[15-Dec-2021 07:28:56 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'rsudjars_byruddy'@'sgx17.dewaweb.com' to database 'rsudjars_safetyict' in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 13
+[15-Dec-2021 07:29:18 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 9
+[15-Dec-2021 07:29:18 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 13
+[15-Dec-2021 07:29:18 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 9
+[15-Dec-2021 07:29:18 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 13
+[15-Dec-2021 07:30:31 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 9
+[15-Dec-2021 07:30:31 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 13
+[15-Dec-2021 07:31:34 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 9
+[15-Dec-2021 07:31:34 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 13
+[15-Dec-2021 07:31:35 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 9
+[15-Dec-2021 07:31:35 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 13
+[15-Dec-2021 07:31:35 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 9
+[15-Dec-2021 07:31:35 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 13
+[15-Dec-2021 07:31:35 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 9
+[15-Dec-2021 07:31:35 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 13
+[15-Dec-2021 07:31:43 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 9
+[15-Dec-2021 07:31:43 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 13
+[15-Dec-2021 07:31:44 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 9
+[15-Dec-2021 07:31:44 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_safetyict'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 13
+[15-Dec-2021 07:31:48 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 9
+[15-Dec-2021 07:31:48 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_tes'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 13
+[15-Dec-2021 07:31:49 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 9
+[15-Dec-2021 07:31:49 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_tes'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 13
+[15-Dec-2021 07:31:49 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 9
+[15-Dec-2021 07:31:49 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_tes'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 13
+[15-Dec-2021 07:31:49 UTC] PHP Notice:  Undefined variable: n in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 9
+[15-Dec-2021 07:31:49 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rsudjars_tes'@'sgx17.dewaweb.com' (using password: YES) in /home/rsudjars/quiz.rsudjarse.id/config/connection.php on line 13

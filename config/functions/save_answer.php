@@ -60,8 +60,13 @@ mysqli_query($link, "INSERT INTO test_logs VALUES ('".$user."', '".$question."',
 		$response['status'] = 'finish';
 
 
+        // get duration
+        $d1 = strtotime("2021-12-16 ".$response['r_timeStart']);
+        $d2 = strtotime("2021-12-16 ".$response['r_timeFinish']);
+        $totalSecondsDiff = abs($d1-$d2);
+
 		// $q = "UPDATE m_tests SET end_date ='".date('H:i:s', strtotime($dateNow))."', pass='".$totalScore."', fail='".($totalQuestion - $totalScore)."', score='".($totalScore * 10.)"' WHERE session_id = '".$_SESSION['nim']."'";
-		$q = "UPDATE m_tests SET end_date ='".date('H:i:s', strtotime($dateNow))."', pass ='".$totalScore."',  fail ='".($totalQuestion - $totalScore)."', score = '".($totalScore * 10)."' WHERE session_id = '".$_SESSION['nim']."'";
+		$q = "UPDATE m_tests SET end_date ='".date('H:i:s', strtotime($dateNow))."', pass ='".$totalScore."',  fail ='".($totalQuestion - $totalScore)."', score = '".($totalScore * 10)."', duration = '".($totalSecondsDiff)."' WHERE session_id = '".$_SESSION['nim']."'";
 		// var_dump($q); exit;
 		mysqli_query($link, $q);
 		// echo $q; exit;
@@ -89,13 +94,19 @@ mysqli_query($link, "INSERT INTO test_logs VALUES ('".$user."', '".$question."',
 		$check = mysqli_num_rows($getData8);
 		if ($check == 0) {
 			// $q = "INSERT INTO m_tests VALUES (NULL, '".date('Y-m-d')."', '".."', '".date('H:i:s', strtotime($dateNow))."', '".$totalScore."', '".$totalQuestion - $totalScore."', '".$totalScore * 10."', '".$_SESSION['nim']."')";
-			$q = "INSERT INTO m_tests VALUES (NULL, '".date('Y-m-d')."', '".date('H:i:s', strtotime($dateStart))."', '".date('H:i:s', strtotime($dateNow))."', '".$totalScore."', '".($totalQuestion - $totalScore)."', '".($totalScore * 10)."', '".$_SESSION['nim']."')";
+			$q = "INSERT INTO m_tests VALUES (NULL, '".date('Y-m-d')."', '".date('H:i:s', strtotime($dateStart))."', '".date('H:i:s', strtotime($dateNow))."', '".$totalScore."', '".($totalQuestion - $totalScore)."', '".($totalScore * 10)."', 0, '".$_SESSION['nim']."')";
 				// var_dump($q); exit;
 				mysqli_query($link, $q);
 			} else {
+			    
+                // get duration
+                $d1 = strtotime("2021-12-16 ".date('H:i:s', strtotime($dateStart)));
+                $d2 = strtotime("2021-12-16 ".date('H:i:s', strtotime($dateNow)));
+                $totalSecondsDiff = abs($d1-$d2);
+			    
 				// update
 				// $q = "UPDATE m_tests SET end_date ='".date('H:i:s', strtotime($dateNow))."', pass='".$totalScore."', fail='".($totalQuestion - $totalScore)."', score='".($totalScore * 10.)"' WHERE session_id = '".$_SESSION['nim']."'";
-				$q = "UPDATE m_tests SET end_date ='".date('H:i:s', strtotime($dateNow))."', pass ='".$totalScore."',  fail ='".($totalQuestion - $totalScore)."', score = '".($totalScore * 10)."' WHERE session_id = '".$_SESSION['nim']."'";
+				$q = "UPDATE m_tests SET end_date ='".date('H:i:s', strtotime($dateNow))."', pass ='".$totalScore."',  fail ='".($totalQuestion - $totalScore)."', score = '".($totalScore * 10)."', duration = '".($totalSecondsDiff)."' WHERE session_id = '".$_SESSION['nim']."'";
 				// var_dump($q); exit;
 				mysqli_query($link, $q);
 			}

@@ -35,7 +35,7 @@ if(isset($_SESSION['is_logged_in'])){
 
         <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
           <h1 class="display-4 fw-normal"><span class="text-danger">Safety</span> <span class="text-primary">Golden Bell</span> <i class="bi bi-bell text-warning"></i></h1>
-          <p class="fs-5 text-muted">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
+          <p class="fs-5 text-muted"><i>"Safety isn't expensive, it's pricelsss"</i></p>
         </div>
       </header>
 
@@ -78,7 +78,7 @@ if(isset($_SESSION['is_logged_in'])){
                 <h4 class="my-0 fw-normal">Total Questions</h4>
               </div>
               <div class="card-body">
-                <h1 class="card-title pricing-card-title">132</h1>
+                <h1 class="card-title pricing-card-title">50</h1>
                 <ul class="list-unstyled mt-3 mb-4">
                   <li>Primary & Secondary Safety</li>
                   <li>Occupational Health</li>

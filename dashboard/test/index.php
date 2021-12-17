@@ -63,6 +63,17 @@ $progressValue = ((1/count($diceTemp))*100);
     <!-- Font Awesomee 4 -->
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/fa4/css/font-awesome.min.css">
 
+    <style>
+        /*a:active,*/
+        /*a:visited {*/
+            /*background-color: #F8F9FA !important; */
+            
+        /*}*/
+        a, a:visited, a:hover, a:active {
+          color: inherit;
+          background-color: #F8F9FA !important; 
+        }
+    </style>
     <title>Safety PTKP Competition - Tools Remember byruddy</title>
   </head>
   <body>
@@ -110,7 +121,7 @@ $progressValue = ((1/count($diceTemp))*100);
             </table>
 
             <div class="text-center">
-              <a class="btn btn-md btn-block btn-light" style="border-radius: 3px; border: 1px solid #D2D2D2;" href="<?= BASE_URL ?>dashboard/">Leaderboard</a>
+              <a class="btn btn-md btn-block btn-light" style="border-radius: 3px; border: 1px solid #D2D2D2;" href="<?= BASE_URL ?>dashboard/leaderboard">Leaderboard</a>
             </div>
 
           </div>
@@ -119,7 +130,7 @@ $progressValue = ((1/count($diceTemp))*100);
       
       <div id="quiz_process" style="display: nonae;">
         <div class="text-center mb-2">
-          <h6>Sisa Waktu Anda : <b class="text-success" id="countdown">20</b></h6>
+          <h6 class="countdownp">Sisa Waktu Anda : <b class="text-success" id="countdown">10</b></h6>
         </div>
         <div class="text-center mb-2">
           <div class="progress mt-2" style="height: 5px;">
@@ -137,10 +148,10 @@ $progressValue = ((1/count($diceTemp))*100);
           $choice     = mysqli_fetch_assoc($getDataMC);
           
 
-          echo '<a class="btn btn-md btn-block mt-3 btn-light choiceAnswer" id="choice_a" style="border: 1px solid #D2D2D2; display: none;" href="#" role="button" action="pass">'.$choice['a'].'</a>';
-          echo '<a class="btn btn-md btn-block mt-3 btn-light choiceAnswer" id="choice_b" style="border: 1px solid #D2D2D2; display: none;" href="#" role="button" action="pass">'.$choice['b'].'</a>';
-          echo '<a class="btn btn-md btn-block mt-3 btn-light choiceAnswer" id="choice_c" style="border: 1px solid #D2D2D2; display: none;" href="#" role="button" action="pass">'.$choice['c'].'</a>';
-          echo '<a class="btn btn-md btn-block mt-3 btn-light choiceAnswer" id="choice_d" style="border: 1px solid #D2D2D2; display: none;" href="#" role="button" action="pass">'.$choice['d'].'</a>';
+          echo '<a class="btn btn-md btn-block mt-3 btn-light choiceAnswer" id="choice_a" style="border: 1px solid #D2D2D2; display: noneA;" href="#" role="button" action="pass">'.$choice['a'].'</a>';
+          echo '<a class="btn btn-md btn-block mt-5 btn-light choiceAnswer" id="choice_b" style="border: 1px solid #D2D2D2; display: noneA;" href="#" role="button" action="pass">'.$choice['b'].'</a>';
+          echo '<a class="btn btn-md btn-block mt-5 btn-light choiceAnswer" id="choice_c" style="border: 1px solid #D2D2D2; display: noneA;" href="#" role="button" action="pass">'.$choice['c'].'</a>';
+          echo '<a class="btn btn-md btn-block mt-5 btn-light choiceAnswer" id="choice_d" style="border: 1px solid #D2D2D2; display: noneA;" href="#" role="button" action="pass">'.$choice['d'].'</a>';
           ?>
 
           <h5 class="wait-new font-weight-normal" id="answer" style="display: none;background-color: rgba(255, 234, 167,0.7); padding: 15px; margin-top: 10px; border: 1px dotted rgba(253, 203, 110,1.0); border-radius: 4px; color: #444;"><?= $data['answer']; ?></h5>
@@ -179,7 +190,7 @@ $progressValue = ((1/count($diceTemp))*100);
         // test();
 
         var is_finish = false;
-        var counter = 20;
+        var counter = 10;
 
         setInterval(function() {
 
@@ -204,7 +215,7 @@ $progressValue = ((1/count($diceTemp))*100);
         }
         // Display 'counter' wherever you want to display it.
         if (counter === 0) {
-          $('#countdown').text('20');
+          $('#countdown').text('10');
           $('#countdown').removeClass('text-danger');
           $('#countdown').addClass('text-success');
           if (!is_finish) {
@@ -227,11 +238,12 @@ $progressValue = ((1/count($diceTemp))*100);
 
         // Next
         function next(answer){
-          $('.choiceAnswer').hide();
-
+          $('.choiceAnswer').css('background-color','#F8F9FA');
+          //$('.choiceAnswer').hide();
+          
           clearInterval(counter);
-          counter = 21;
-          $('#countdown').text('20');
+          counter = 11;
+          $('#countdown').text('10');
           $('#countdown').removeClass('text-danger');
           $('#countdown').addClass('text-success');
           $('#quiz_process').hide();
@@ -256,6 +268,7 @@ $progressValue = ((1/count($diceTemp))*100);
               $('#finish').show();
             } else {
               $('#quiz_process').show();
+              //$('.choiceAnswer').hide();
               $("#question").html(resp.question);
               $('#question').attr('qid', resp.qid);
               $('#choice_a').text(resp.a);
@@ -278,6 +291,16 @@ $progressValue = ((1/count($diceTemp))*100);
             });
         }
 
+        
+    
+        $('.countdownp').click(function(){
+          if ($('#countdown').text() == '10'){
+            $('.choiceAnswer').show(); 
+            clearInterval(counter);
+            counter = 21;
+          }
+        });
+        
         
         // Show Answer
         function showAnswer(){

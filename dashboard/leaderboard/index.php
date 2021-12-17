@@ -63,12 +63,13 @@ while ($row = mysqli_fetch_assoc($data10)) {
             <th scope="col">Fullname</th>
             <th scope="col" class="text-center">Benar</th>
             <th scope="col" class="text-center">Salah</th>
+            <th scope="col" class="text-center">Duration(s)</th>
             <th scope="col" class="text-center">Score</th>
           </tr>
         </thead>
         <tbody>
           <?php 
-          $runSql = mysqli_query($link, "SELECT p.nim, p.fullname, t.pass, t.fail, t.score FROM m_tests t INNER JOIN participants p ON t.session_id = p.nim ORDER BY t.score DESC");
+          $runSql = mysqli_query($link, "SELECT p.nim, p.fullname, t.pass, t.fail, t.duration, t.score FROM m_tests t INNER JOIN participants p ON t.session_id = p.nim ORDER BY t.score DESC, duration ASC");
           $i = 1;
           while ($row = mysqli_fetch_assoc($runSql)) {
 
@@ -82,6 +83,7 @@ while ($row = mysqli_fetch_assoc($data10)) {
             <td><?= $row['fullname'] ?></td>
             <td class="text-center"><?= $row['pass'] ?></td>
             <td class="text-center"><?= $row['fail'] ?></td>
+            <td class="text-center"><?= $row['duration'] ?></td>
             <td class="text-center"><?= $row['score'] ?></td>
           </tr>
           <?php 

@@ -6,13 +6,13 @@ if(isset($_GET['id'])){
 
   $id =   mysqli_real_escape_string($link, $_GET['id']);
   
-  $query = sprintf("SELECT * FROM participants WHERE nim = '%s'",
+  $query = sprintf("SELECT * FROM participants WHERE nim = '1%s'",
     mysqli_real_escape_string($link, $id));
   $result = mysqli_query($link, $query);
 
   if (mysqli_num_rows($result) == 1) {
   	$_SESSION['is_logged_in'] = true;
-    $_SESSION['nim'] = $id;
+    $_SESSION['nim'] = "1".$id;
     $_SESSION['administrator'] = true;
     $_SESSION['guest_name'] 	 = NULL;
     echo '{"results": "success"}';

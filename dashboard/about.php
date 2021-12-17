@@ -64,7 +64,7 @@ $data   = mysqli_fetch_assoc($result);
       <footer class="pt-2 my-md-5 pt-md-5 border-top">
         <div class="row">
           <div class="col-12 col-md">
-            <small class="d-block mb-3 text-muted">Supported by <a href="http://poscoictindonesia.co.id/" style="color: #3742fa;" target="_blank">POSCO ICT-Indonesia</a> and Code  <span style="color: #ff4757">byruddy - 111105</span> &copy; 2019</small>
+            <small class="d-block mb-3 text-muted">Supported by <a href="http://poscoictindonesia.co.id/" style="color: #3742fa;" target="_blank">POSCO ICT-Indonesia</a> and Code  <span style="color: #ff4757">byruddy - 113423</span> &copy; 2019–2021</small>
           </div>
         </div>
       </footer>

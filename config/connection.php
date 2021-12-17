@@ -2,21 +2,17 @@
 	// Session start for work everywhere
 session_start();
 
-	// Set host and database
-$host = "localhost";
-$user = "root";
-$pass = "";
+$servername = "rsudjarse.id";
+$username = "rsudjars_tes";
+$password = "vn,.hLKjqy.#";
+$db       = "rsudjars_safety";
 
-	// Database name
-$db   = "kp_quiz";
+// Create connection
+$link = mysqli_connect($servername, $username, $password, $db);
 
-	// Create a connection
-$link = mysqli_connect($host,$user,$pass, $db);
-
-	// Checking for connection function
+// Check connection
 if (!$link) {
-	echo "<b>Connection failed!</b>";
+  die("Connection failed: " . mysqli_connect_error());
 }
-
 
 
